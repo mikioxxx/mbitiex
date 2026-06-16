@@ -411,21 +411,7 @@ const state = {
     }
 
     function wrapCanvasText(ctx, text, x, y, maxWidth, lineHeight, maxLines = Infinity) {
-      const chars = [...text];
-      const lines = [];
-      let line = "";
-
-      chars.forEach((char) => {
-        const testLine = line + char;
-        if (ctx.measureText(testLine).width > maxWidth && line) {
-          lines.push(line);
-          line = char;
-        } else {
-          line = testLine;
-        }
-      });
-      if (line) lines.push(line);
-
+      const lines = getCanvasTextLines(ctx, text, maxWidth);
       const visibleLines = lines.slice(0, maxLines);
       if (lines.length > maxLines) {
         visibleLines[visibleLines.length - 1] = `${visibleLines[visibleLines.length - 1].slice(0, -1)}…`;
@@ -435,6 +421,74 @@ const state = {
         ctx.fillText(row, x, y + index * lineHeight);
       });
       return y + visibleLines.length * lineHeight;
+    }
+
+    function getCanvasTextLines(ctx, text, maxWidth) {
+      const chars = [...text];
+      const tokens = [];
+      let latin = "";
+      chars.forEach((char) => {
+        if (/[A-Za-z0-9]/.test(char)) {
+          latin += char;
+          return;
+        }
+        if (latin) {
+          tokens.push(latin);
+          latin = "";
+        }
+        tokens.push(char);
+      });
+      if (latin) tokens.push(latin);
+      const lines = [];
+      let line = "";
+
+      tokens.forEach((token) => {
+        const testLine = line + token;
+        if (ctx.measureText(testLine).width > maxWidth && line) {
+          lines.push(line);
+          line = token;
+        } else {
+          line = testLine;
+        }
+      });
+      if (line) lines.push(line);
+      return lines;
+    }
+
+    function drawFittedCanvasLine(ctx, text, x, y, maxWidth, options) {
+      const { maxSize, minSize, weight, family } = options;
+      let size = maxSize;
+      do {
+        ctx.font = `${weight} ${size}px ${family}`;
+        if (ctx.measureText(text).width <= maxWidth) break;
+        size -= 2;
+      } while (size >= minSize);
+      ctx.fillText(text, x, y);
+      return y + size * 1.12;
+    }
+
+    function drawFittedCanvasBlock(ctx, text, x, y, maxWidth, maxHeight, options) {
+      const { maxSize, minSize, weight, family, lineHeightRatio } = options;
+      let size = maxSize;
+      let lines = [];
+      let lineHeight = size * lineHeightRatio;
+
+      do {
+        ctx.font = `${weight} ${size}px ${family}`;
+        lineHeight = size * lineHeightRatio;
+        lines = getCanvasTextLines(ctx, text, maxWidth);
+        if (lines.length * lineHeight <= maxHeight) break;
+        size -= 1;
+      } while (size >= minSize);
+
+      if (lines.length * lineHeight > maxHeight) {
+        lineHeight = maxHeight / Math.max(lines.length, 1);
+      }
+
+      lines.forEach((row, index) => {
+        ctx.fillText(row, x, y + index * lineHeight);
+      });
+      return y + lines.length * lineHeight;
     }
 
     function dataUrlToBlob(dataUrl) {
@@ -531,7 +585,57 @@ const state = {
       });
     }
 
-    function createResultCard({ scores, title, subtitle, description, typeHeading }) {
+    function drawResultCardBadges(ctx, badges, x, y, maxWidth) {
+      let cursorX = x;
+      let cursorY = y;
+      const gap = 10;
+      const rowGap = 10;
+      const height = 46;
+
+      ctx.textBaseline = "middle";
+      ctx.font = "800 24px 'Yu Gothic UI', sans-serif";
+      badges.forEach((badge, index) => {
+        const textWidth = ctx.measureText(badge).width;
+        const width = Math.min(maxWidth, textWidth + 34);
+        if (cursorX > x && cursorX + width > x + maxWidth) {
+          cursorX = x;
+          cursorY += height + rowGap;
+        }
+
+        const radius = height / 2;
+        ctx.beginPath();
+        roundedRectPath(ctx, cursorX, cursorY, width, height, radius);
+        ctx.fillStyle = index === 0 ? "rgba(243,216,144,0.92)" : "rgba(8,10,15,0.62)";
+        ctx.strokeStyle = index === 0 ? "rgba(255,248,221,0.56)" : "rgba(243,216,144,0.24)";
+        ctx.lineWidth = 2;
+        ctx.fill();
+        ctx.stroke();
+
+        ctx.fillStyle = index === 0 ? "#111216" : "rgba(244,239,227,0.9)";
+        ctx.fillText(badge, cursorX + 17, cursorY + height / 2);
+        cursorX += width + gap;
+      });
+
+      return cursorY + height;
+    }
+
+    function roundedRectPath(ctx, x, y, width, height, radius) {
+      if (ctx.roundRect) {
+        ctx.roundRect(x, y, width, height, radius);
+        return;
+      }
+      ctx.moveTo(x + radius, y);
+      ctx.lineTo(x + width - radius, y);
+      ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
+      ctx.lineTo(x + width, y + height - radius);
+      ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
+      ctx.lineTo(x + radius, y + height);
+      ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
+      ctx.lineTo(x, y + radius);
+      ctx.quadraticCurveTo(x, y, x + radius, y);
+    }
+
+    function createResultCard({ scores, title, subtitle, description, typeHeading, badges }) {
       const canvas = document.createElement("canvas");
       canvas.width = 1080;
       canvas.height = 1440;
@@ -573,23 +677,34 @@ const state = {
       ctx.fillText(typeHeading, 92, 92);
 
       ctx.fillStyle = "#fff4d2";
-      ctx.font = "800 70px 'Yu Mincho', 'Hiragino Mincho ProN', serif";
-      let y = wrapCanvasText(ctx, title, 92, 150, 896, 82, 3);
+      let y = drawFittedCanvasLine(ctx, title, 92, 150, 896, {
+        maxSize: 70,
+        minSize: 42,
+        weight: 800,
+        family: "'Yu Mincho', 'Hiragino Mincho ProN', serif"
+      });
+
+      y = drawResultCardBadges(ctx, badges, 92, y + 22, 896);
 
       ctx.fillStyle = "rgba(244,239,227,0.78)";
-      ctx.font = "700 32px 'Yu Gothic UI', sans-serif";
-      y = wrapCanvasText(ctx, subtitle, 92, y + 24, 896, 48, 3);
+      y = drawFittedCanvasBlock(ctx, subtitle, 92, y + 26, 896, 112, {
+        maxSize: 31,
+        minSize: 22,
+        weight: 700,
+        family: "'Yu Gothic UI', sans-serif",
+        lineHeightRatio: 1.48
+      });
 
       ctx.fillStyle = "rgba(244,239,227,0.9)";
-      ctx.font = "500 34px 'Yu Gothic UI', sans-serif";
-      wrapCanvasText(ctx, description, 92, y + 36, 896, 56, 6);
+      drawFittedCanvasBlock(ctx, description, 92, y + 34, 896, 360, {
+        maxSize: 31,
+        minSize: 20,
+        weight: 500,
+        family: "'Yu Gothic UI', sans-serif",
+        lineHeightRatio: 1.58
+      });
 
       drawCardRadar(ctx, scores, 540, 1014, 260);
-
-      ctx.textAlign = "center";
-      ctx.fillStyle = "rgba(184,178,165,0.78)";
-      ctx.font = "700 26px 'Segoe UI', sans-serif";
-      ctx.fillText("MBTI TYPE EXTENDED DIAGNOSTIC", 540, 1330);
 
       const dataUrl = canvas.toDataURL("image/png");
       latestResultCardBlob = dataUrlToBlob(dataUrl);
@@ -608,14 +723,18 @@ const state = {
       const generated = generatedSet?.[primary]?.[contrast] ?? buildGeneratedSubtype(primary, contrast);
       const copy = subtypeCopy[primary];
       const description = `${copy.body}${contrastCopy[contrast]}`.replaceAll("INFP", currentMbti);
+      const categoryLabel = getSubtypeCategory(primary);
+      const primaryLabel = `主属性：${attributes[primary].label}`;
+      const secondaryLabel = `副属性：${attributes[secondary].label}`;
+      const contrastLabel = generated?.shortLabel ?? `コントラスト：${getContrastName(contrast)}`;
 
       document.querySelector(".type-mark").textContent = typeProfile.resultHeading;
       document.getElementById("resultTitle").textContent = generated?.title ?? getSubtypeName(primary);
       document.getElementById("resultSubtitle").textContent = generated?.summary ?? copy.lead;
-      document.getElementById("categoryBadge").textContent = getSubtypeCategory(primary);
-      document.getElementById("primaryBadge").textContent = `主属性：${attributes[primary].label}`;
-      document.getElementById("secondaryBadge").textContent = `副属性：${attributes[secondary].label}`;
-      document.getElementById("contrastBadge").textContent = generated?.shortLabel ?? `コントラスト：${getContrastName(contrast)}`;
+      document.getElementById("categoryBadge").textContent = categoryLabel;
+      document.getElementById("primaryBadge").textContent = primaryLabel;
+      document.getElementById("secondaryBadge").textContent = secondaryLabel;
+      document.getElementById("contrastBadge").textContent = contrastLabel;
       document.getElementById("description").textContent = description;
 
       const resultTitle = generated?.title ?? getSubtypeName(primary);
@@ -626,7 +745,8 @@ const state = {
         title: resultTitle.replace(`（${currentMbti}）`, ""),
         subtitle: resultSubtitle,
         description,
-        typeHeading: typeProfile.resultHeading
+        typeHeading: typeProfile.resultHeading,
+        badges: [categoryLabel, primaryLabel, secondaryLabel, contrastLabel]
       });
       resultCardImage.src = latestResultCardUrl;
       resultCardImage.alt = `${resultTitle}の診断結果カード`;
