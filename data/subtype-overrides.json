@@ -1,0 +1,330 @@
+{
+  "ISFP": {
+    "reality": {
+      "strategy": {
+        "title": "今を手触りでつかむ冒険家（ISFP）",
+        "shortLabel": "実感派 × 即興寄り",
+        "summary": "考えすぎる前に、目の前の感覚や状況を頼りに動けるISFPです。"
+      },
+      "inquiry": {
+        "title": "直感で今を選ぶ冒険家（ISFP）",
+        "shortLabel": "実感派 × 直感寄り",
+        "summary": "細かな分析よりも、肌で感じた違和感や手応えから現実を見極めるISFPです。"
+      },
+      "empathy": {
+        "title": "自分の感覚を信じる冒険家（ISFP）",
+        "shortLabel": "実感派 × 自分軸寄り",
+        "summary": "周囲に合わせすぎず、自分が本当にしっくりくる選択を大切にできるISFPです。"
+      },
+      "imagination": {
+        "title": "感性を形にする冒険家（ISFP）",
+        "shortLabel": "実感派 × 実行寄り",
+        "summary": "浮かんだイメージを、手触りのある行動や表現へ変えていけるISFPです。"
+      },
+      "challenge": {
+        "title": "自分のペースで整える冒険家（ISFP）",
+        "shortLabel": "実感派 × 穏健寄り",
+        "summary": "勢いだけで進まず、自分のペースで現実的な落としどころを見つけるISFPです。"
+      }
+    },
+    "strategy": {
+      "reality": {
+        "title": "感性に流れをつくる冒険家（ISFP）",
+        "shortLabel": "構想派 × 感性寄り",
+        "summary": "現実の条件に縛られすぎず、感性を活かすための流れを組み立てられるISFPです。"
+      },
+      "inquiry": {
+        "title": "直感に道筋をつける冒険家（ISFP）",
+        "shortLabel": "構想派 × 直感寄り",
+        "summary": "ひらめきや感覚を、そのまま終わらせず次の行動へつなげられるISFPです。"
+      },
+      "empathy": {
+        "title": "自分らしい未来を選ぶ冒険家（ISFP）",
+        "shortLabel": "構想派 × 自分軸寄り",
+        "summary": "人の期待に流されず、自分が納得できる未来への道筋を描くISFPです。"
+      },
+      "imagination": {
+        "title": "ひらめきを実行に移す冒険家（ISFP）",
+        "shortLabel": "構想派 × 実行寄り",
+        "summary": "感性やアイデアを、実際に形にするための順序へ落とし込めるISFPです。"
+      },
+      "challenge": {
+        "title": "静かに準備する冒険家（ISFP）",
+        "shortLabel": "構想派 × 穏健寄り",
+        "summary": "急に飛び込むより、自分に合うタイミングと方法を整えてから動くISFPです。"
+      }
+    },
+    "inquiry": {
+      "reality": {
+        "title": "感じた理由を探る冒険家（ISFP）",
+        "shortLabel": "探求派 × 感性寄り",
+        "summary": "目に見える事実だけでなく、自分が感じた意味や違和感を丁寧に探るISFPです。"
+      },
+      "strategy": {
+        "title": "気になることを確かめる冒険家（ISFP）",
+        "shortLabel": "探求派 × 即興寄り",
+        "summary": "決めた手順に縛られず、気になったことを自然に掘り下げていくISFPです。"
+      },
+      "empathy": {
+        "title": "自分の答えを確かめる冒険家（ISFP）",
+        "shortLabel": "探求派 × 自分軸寄り",
+        "summary": "周囲の正解よりも、自分の内側で納得できる答えを大切にするISFPです。"
+      },
+      "imagination": {
+        "title": "試しながら答えを探す冒険家（ISFP）",
+        "shortLabel": "探求派 × 実行寄り",
+        "summary": "考えるだけで終わらせず、確かめたいことを行動や表現で試していくISFPです。"
+      },
+      "challenge": {
+        "title": "自分のペースで確かめる冒険家（ISFP）",
+        "shortLabel": "探求派 × 穏健寄り",
+        "summary": "大きく踏み出すより、気になることを自分のペースで深めていくISFPです。"
+      }
+    },
+    "empathy": {
+      "reality": {
+        "title": "空気を感じて寄り添う冒険家（ISFP）",
+        "shortLabel": "共鳴派 × 感性寄り",
+        "summary": "言葉よりも表情や空気感から、相手に必要な距離感を感じ取れるISFPです。"
+      },
+      "strategy": {
+        "title": "その場に寄り添う冒険家（ISFP）",
+        "shortLabel": "共鳴派 × 即興寄り",
+        "summary": "決まった対応よりも、その瞬間の相手や場に合わせて自然に寄り添うISFPです。"
+      },
+      "inquiry": {
+        "title": "心の動きを感じ取る冒険家（ISFP）",
+        "shortLabel": "共鳴派 × 直感寄り",
+        "summary": "理由を説明される前に、相手の気持ちの揺れや本音を感じ取りやすいISFPです。"
+      },
+      "imagination": {
+        "title": "思いやりを行動にする冒険家（ISFP）",
+        "shortLabel": "共鳴派 × 実行寄り",
+        "summary": "感じ取った優しさを、言葉や行動、表現として相手へ届けられるISFPです。"
+      },
+      "challenge": {
+        "title": "やわらかく距離を保つ冒険家（ISFP）",
+        "shortLabel": "共鳴派 × 穏健寄り",
+        "summary": "相手を大切にしながらも、無理に踏み込みすぎない距離を選べるISFPです。"
+      }
+    },
+    "imagination": {
+      "reality": {
+        "title": "感じた世界を広げる冒険家（ISFP）",
+        "shortLabel": "表現派 × 感性寄り",
+        "summary": "目の前の体験や感覚から、独自のイメージを豊かに広げられるISFPです。"
+      },
+      "strategy": {
+        "title": "その場で表現を生む冒険家（ISFP）",
+        "shortLabel": "表現派 × 即興寄り",
+        "summary": "計画通りに作るより、その場のひらめきで自分らしい表現を生み出すISFPです。"
+      },
+      "inquiry": {
+        "title": "可能性を感じ取る冒険家（ISFP）",
+        "shortLabel": "表現派 × 直感寄り",
+        "summary": "まだ形になっていない雰囲気や可能性を、感覚的に受け取れるISFPです。"
+      },
+      "empathy": {
+        "title": "自分の世界を守る冒険家（ISFP）",
+        "shortLabel": "表現派 × 自分軸寄り",
+        "summary": "周囲に合わせすぎず、自分だけの好きや美意識を大切にできるISFPです。"
+      },
+      "challenge": {
+        "title": "イメージを丁寧に育てる冒険家（ISFP）",
+        "shortLabel": "表現派 × 穏健寄り",
+        "summary": "急いで見せるより、内側のイメージを自分のペースで育てていくISFPです。"
+      }
+    },
+    "challenge": {
+      "reality": {
+        "title": "感覚を信じて踏み出す冒険家（ISFP）",
+        "shortLabel": "冒険派 × 感性寄り",
+        "summary": "頭で考えすぎるより、今だと感じた瞬間に自然と動き出せるISFPです。"
+      },
+      "strategy": {
+        "title": "流れを読んで踏み出す冒険家（ISFP）",
+        "shortLabel": "冒険派 × 即興寄り",
+        "summary": "綿密な計画よりも、その場の流れや勢いを活かして踏み出せるISFPです。"
+      },
+      "inquiry": {
+        "title": "直感で一線を越える冒険家（ISFP）",
+        "shortLabel": "冒険派 × 直感寄り",
+        "summary": "考え尽くす前に、面白そうだと感じた方向へ境界を越えていけるISFPです。"
+      },
+      "empathy": {
+        "title": "自分の道を選ぶ冒険家（ISFP）",
+        "shortLabel": "冒険派 × 自分軸寄り",
+        "summary": "人の期待よりも、自分が本当に進みたい方向へ静かに踏み出すISFPです。"
+      },
+      "imagination": {
+        "title": "感じたことを行動に変える冒険家（ISFP）",
+        "shortLabel": "冒険派 × 実行寄り",
+        "summary": "内側にある感覚や理想を、実際の行動へ移していけるISFPです。"
+      }
+    }
+  },
+  "INFP": {
+    "reality": {
+      "strategy": {
+        "title": "状況に合わせて現実を見る仲介者（INFP）",
+        "shortLabel": "現実派 × 即興寄り",
+        "summary": "理想を現実に置きながらも、細かな計画に縛られず感覚で道を選べるINFPです。"
+      },
+      "inquiry": {
+        "title": "直感で現実を見極める仲介者（INFP）",
+        "shortLabel": "現実派 × 直感寄り",
+        "summary": "状況を冷静に見ながら、考え込みすぎず大事だと思う方向へ進めるINFPです。"
+      },
+      "empathy": {
+        "title": "静かに芯を通す仲介者（INFP）",
+        "shortLabel": "現実派 × 自立寄り",
+        "summary": "周囲に流されすぎず、自分の価値観を現実的な選択へ落とし込めるINFPです。"
+      },
+      "imagination": {
+        "title": "理想を具体化する仲介者（INFP）",
+        "shortLabel": "現実派 × 実行寄り",
+        "summary": "夢や可能性を広げるより、今できる形に整える力が目立つINFPです。"
+      },
+      "challenge": {
+        "title": "大切なものを守り抜く仲介者（INFP）",
+        "shortLabel": "現実派 × 慎重寄り",
+        "summary": "現実を見据えながら、無理に突破せず安全な進め方を選べるINFPです。"
+      }
+    },
+    "strategy": {
+      "reality": {
+        "title": "理想に道筋を描く仲介者（INFP）",
+        "shortLabel": "戦略派 × 夢想寄り",
+        "summary": "目的から逆算しながらも、現実条件だけに閉じない発想を残せるINFPです。"
+      },
+      "inquiry": {
+        "title": "ひらめきを計画に変える仲介者（INFP）",
+        "shortLabel": "戦略派 × 直感寄り",
+        "summary": "深掘りよりもひらめきを起点に、理想へ向かう筋道を作れるINFPです。"
+      },
+      "empathy": {
+        "title": "信念の設計者の仲介者（INFP）",
+        "shortLabel": "戦略派 × 自立寄り",
+        "summary": "相手の感情に飲まれず、自分の信念を通すための手順を考えられるINFPです。"
+      },
+      "imagination": {
+        "title": "実現へ導く仲介者（INFP）",
+        "shortLabel": "戦略派 × 実行寄り",
+        "summary": "想像で終わらせず、理想を実際に進めるための段取りを作れるINFPです。"
+      },
+      "challenge": {
+        "title": "静かな参謀の仲介者（INFP）",
+        "shortLabel": "戦略派 × 慎重寄り",
+        "summary": "変化を急がず、理想を守るために静かで確実な道筋を選べるINFPです。"
+      }
+    },
+    "inquiry": {
+      "reality": {
+        "title": "可能性の意味を探る仲介者（INFP）",
+        "shortLabel": "探求派 × 夢想寄り",
+        "summary": "現実の制約に急いで答えを出さず、意味や可能性を深く探れるINFPです。"
+      },
+      "strategy": {
+        "title": "問いに従って動く仲介者（INFP）",
+        "shortLabel": "探求派 × 即興寄り",
+        "summary": "固定した計画よりも、その時の問いや違和感から深く潜っていくINFPです。"
+      },
+      "empathy": {
+        "title": "自分の答えを探す仲介者（INFP）",
+        "shortLabel": "探求派 × 自立寄り",
+        "summary": "人の気持ちに配慮しつつも、自分だけの問いを手放さず掘り下げるINFPです。"
+      },
+      "imagination": {
+        "title": "本質を現実に結ぶ仲介者（INFP）",
+        "shortLabel": "探求派 × 実行寄り",
+        "summary": "内面の問いを深く掘りながら、想像だけで終わらせず形にしようとするINFPです。"
+      },
+      "challenge": {
+        "title": "静観する思想家の仲介者（INFP）",
+        "shortLabel": "探求派 × 慎重寄り",
+        "summary": "答えを急がず、静かに観察しながら本質へ近づこうとするINFPです。"
+      }
+    },
+    "empathy": {
+      "reality": {
+        "title": "人の願いに寄り添う仲介者（INFP）",
+        "shortLabel": "超共感派 × 夢想寄り",
+        "summary": "現実的な正しさよりも、人の願いや心の奥にある可能性を見ようとするINFPです。"
+      },
+      "strategy": {
+        "title": "その場を癒やす仲介者（INFP）",
+        "shortLabel": "超共感派 × 即興寄り",
+        "summary": "計画よりも場の温度を読み取り、その瞬間に必要な優しさを選べるINFPです。"
+      },
+      "inquiry": {
+        "title": "心を察する仲介者（INFP）",
+        "shortLabel": "超共感派 × 直感寄り",
+        "summary": "理由を分析しきる前に、相手の痛みや願いへ自然に反応できるINFPです。"
+      },
+      "imagination": {
+        "title": "手を差し伸べる仲介者（INFP）",
+        "shortLabel": "超共感派 × 実行寄り",
+        "summary": "優しさを気持ちだけで終わらせず、相手のための具体的な行動に移せるINFPです。"
+      },
+      "challenge": {
+        "title": "やさしい見守り手の仲介者（INFP）",
+        "shortLabel": "超共感派 × 慎重寄り",
+        "summary": "人の心を大切にしながら、無理に踏み込まず安全な距離を選べるINFPです。"
+      }
+    },
+    "imagination": {
+      "reality": {
+        "title": "想像を広げる仲介者（INFP）",
+        "shortLabel": "超創造派 × 夢想寄り",
+        "summary": "現実の枠に急いで合わせず、内側の世界を豊かに広げられるINFPです。"
+      },
+      "strategy": {
+        "title": "即興で描く仲介者（INFP）",
+        "shortLabel": "超創造派 × 即興寄り",
+        "summary": "計画に閉じず、浮かんだイメージをその場で広げていけるINFPです。"
+      },
+      "inquiry": {
+        "title": "まだない可能性を感じ取る仲介者（INFP）",
+        "shortLabel": "超創造派 × 直感寄り",
+        "summary": "分析よりも感覚を頼りに、まだ言葉にならない可能性を描けるINFPです。"
+      },
+      "empathy": {
+        "title": "独自の世界を持つ仲介者（INFP）",
+        "shortLabel": "超創造派 × 自立寄り",
+        "summary": "周囲の期待に合わせすぎず、自分だけの美意識や物語を守れるINFPです。"
+      },
+      "challenge": {
+        "title": "イメージを丁寧に育てる仲介者（INFP）",
+        "shortLabel": "超創造派 × 慎重寄り",
+        "summary": "豊かな想像力を持ちながら、外へ出すタイミングを丁寧に選ぶINFPです。"
+      }
+    },
+    "challenge": {
+      "reality": {
+        "title": "理想のために一歩踏み出す仲介者（INFP）",
+        "shortLabel": "挑戦派 × 夢想寄り",
+        "summary": "現実的な勝算だけではなく、こうありたいという理想を燃料に踏み出せるINFPです。"
+      },
+      "strategy": {
+        "title": "直感で踏み出す仲介者（INFP）",
+        "shortLabel": "挑戦派 × 即興寄り",
+        "summary": "緻密な計画よりも、その場の確信や熱量で一歩を選べるINFPです。"
+      },
+      "inquiry": {
+        "title": "直感で境界を越える仲介者（INFP）",
+        "shortLabel": "挑戦派 × 直感寄り",
+        "summary": "考え尽くす前に、大切だと感じた壁へ向かっていけるINFPです。"
+      },
+      "empathy": {
+        "title": "信念を貫く仲介者（INFP）",
+        "shortLabel": "挑戦派 × 自立寄り",
+        "summary": "人に合わせすぎず、自分の信念を守るために静かに踏み出せるINFPです。"
+      },
+      "imagination": {
+        "title": "理想を現実へ動かす仲介者（INFP）",
+        "shortLabel": "挑戦派 × 実行寄り",
+        "summary": "理想を想像で終わらせず、必要な場面では外へ出て動けるINFPです。"
+      }
+    }
+  }
+}

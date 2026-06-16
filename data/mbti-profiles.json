@@ -1,0 +1,1298 @@
+{
+  "INTJ": {
+    "alias": "建築家",
+    "resultHeading": "INTJ（建築家）",
+    "profileLabel": "Architect profile",
+    "expectedScores": {
+      "reality": 62,
+      "strategy": 82,
+      "inquiry": 72,
+      "empathy": 38,
+      "imagination": 68,
+      "challenge": 56
+    },
+    "subtypeLabels": {
+      "reality": "現実派",
+      "strategy": "超戦略派",
+      "inquiry": "探求派",
+      "empathy": "共感派",
+      "imagination": "構想派",
+      "challenge": "挑戦派"
+    },
+    "contrastLabels": {
+      "reality": "理想寄り",
+      "strategy": "即断寄り",
+      "inquiry": "行動寄り",
+      "empathy": "独立寄り",
+      "imagination": "実務寄り",
+      "challenge": "慎重寄り"
+    },
+    "attributeDescriptions": {
+      "reality": {
+        "title": "現実派",
+        "summary": "理想や構想だけで終わらせず、現実の条件や実現可能性まで見据えるタイプです。"
+      },
+      "strategy": {
+        "title": "超戦略派",
+        "summary": "そのタイプらしい長期視点と戦略性が特に強く現れる王道強化型です。"
+      },
+      "inquiry": {
+        "title": "探求派",
+        "summary": "結果だけでなく、物事の意味・本質・仕組みを理解したいタイプです。"
+      },
+      "empathy": {
+        "title": "共感派",
+        "summary": "論理や効率だけでなく、人の感情や関係性にも自然と意識が向くタイプです。"
+      },
+      "imagination": {
+        "title": "構想派",
+        "summary": "未来の可能性や理想像を描き、それを大きな設計図として捉えるタイプです。"
+      },
+      "challenge": {
+        "title": "挑戦派",
+        "summary": "未知の領域や変化を恐れず、自分の可能性を試しに行くタイプです。"
+      }
+    },
+    "contrastDescriptions": {
+      "reality": {
+        "title": "理想寄り",
+        "summary": "現実的な制約よりも、可能性やビジョンを優先する傾向があります。"
+      },
+      "strategy": {
+        "title": "即断寄り",
+        "summary": "長期計画よりも、その場の判断や勢いを重視する傾向があります。"
+      },
+      "inquiry": {
+        "title": "行動寄り",
+        "summary": "考え抜くよりも、まず試して確かめたい傾向があります。"
+      },
+      "empathy": {
+        "title": "独立寄り",
+        "summary": "周囲の評価や感情に流されず、自分の基準で判断する傾向があります。"
+      },
+      "imagination": {
+        "title": "実務寄り",
+        "summary": "未来の構想よりも、目の前の課題解決や運用を優先する傾向があります。"
+      },
+      "challenge": {
+        "title": "慎重寄り",
+        "summary": "無理に突破しようとせず、タイミングや安全な進め方を選ぶ傾向があります。"
+      }
+    }
+  },
+  "INTP": {
+    "alias": "論理学者",
+    "resultHeading": "INTP（論理学者）",
+    "profileLabel": "Logician profile",
+    "expectedScores": {
+      "reality": 44,
+      "strategy": 54,
+      "inquiry": 82,
+      "empathy": 40,
+      "imagination": 72,
+      "challenge": 38
+    },
+    "subtypeLabels": {
+      "reality": "実証派",
+      "strategy": "構造派",
+      "inquiry": "超探求派",
+      "empathy": "共感派",
+      "imagination": "仮説派",
+      "challenge": "挑戦派"
+    },
+    "contrastLabels": {
+      "reality": "抽象寄り",
+      "strategy": "即興寄り",
+      "inquiry": "実用寄り",
+      "empathy": "独立寄り",
+      "imagination": "検証寄り",
+      "challenge": "慎重寄り"
+    },
+    "attributeDescriptions": {
+      "reality": {
+        "title": "実証派",
+        "summary": "抽象的な仮説を、具体例や検証可能な形で確かめようとするタイプです。"
+      },
+      "strategy": {
+        "title": "構造派",
+        "summary": "物事の背後にある仕組みや関係性を組み立てて理解するタイプです。"
+      },
+      "inquiry": {
+        "title": "超探求派",
+        "summary": "そのタイプらしい知的好奇心や本質追求が特に強く現れる王道強化型です。"
+      },
+      "empathy": {
+        "title": "共感派",
+        "summary": "論理や効率だけでなく、人の感情や関係性にも自然と意識が向くタイプです。"
+      },
+      "imagination": {
+        "title": "仮説派",
+        "summary": "まだ確定していない可能性を広げ、仮説として考え続けるタイプです。"
+      },
+      "challenge": {
+        "title": "挑戦派",
+        "summary": "未知の領域や変化を恐れず、自分の可能性を試しに行くタイプです。"
+      }
+    },
+    "contrastDescriptions": {
+      "reality": {
+        "title": "抽象寄り",
+        "summary": "具体的な条件よりも、概念や仮説として考える傾向があります。"
+      },
+      "strategy": {
+        "title": "即興寄り",
+        "summary": "決めた手順よりも、その場の流れやひらめきで動く傾向があります。"
+      },
+      "inquiry": {
+        "title": "実用寄り",
+        "summary": "本質の探求よりも、役に立つ形にすることへ意識が向きやすい傾向があります。"
+      },
+      "empathy": {
+        "title": "独立寄り",
+        "summary": "周囲の評価や感情に流されず、自分の基準で判断する傾向があります。"
+      },
+      "imagination": {
+        "title": "検証寄り",
+        "summary": "広げた仮説を、現実に確かめられる形へ戻したい傾向があります。"
+      },
+      "challenge": {
+        "title": "慎重寄り",
+        "summary": "無理に突破しようとせず、タイミングや安全な進め方を選ぶ傾向があります。"
+      }
+    }
+  },
+  "ENTJ": {
+    "alias": "指揮官",
+    "resultHeading": "ENTJ（指揮官）",
+    "profileLabel": "Commander profile",
+    "expectedScores": {
+      "reality": 72,
+      "strategy": 84,
+      "inquiry": 62,
+      "empathy": 42,
+      "imagination": 58,
+      "challenge": 76
+    },
+    "subtypeLabels": {
+      "reality": "実行派",
+      "strategy": "超戦略派",
+      "inquiry": "探求派",
+      "empathy": "共感派",
+      "imagination": "構想派",
+      "challenge": "超挑戦派"
+    },
+    "contrastLabels": {
+      "reality": "理念寄り",
+      "strategy": "即断寄り",
+      "inquiry": "実践寄り",
+      "empathy": "成果寄り",
+      "imagination": "現場寄り",
+      "challenge": "堅実寄り"
+    },
+    "attributeDescriptions": {
+      "reality": {
+        "title": "実行派",
+        "summary": "考えや方針を、実際の行動や結果へ移す力が前に出るタイプです。"
+      },
+      "strategy": {
+        "title": "超戦略派",
+        "summary": "そのタイプらしい長期視点と戦略性が特に強く現れる王道強化型です。"
+      },
+      "inquiry": {
+        "title": "探求派",
+        "summary": "結果だけでなく、物事の意味・本質・仕組みを理解したいタイプです。"
+      },
+      "empathy": {
+        "title": "共感派",
+        "summary": "論理や効率だけでなく、人の感情や関係性にも自然と意識が向くタイプです。"
+      },
+      "imagination": {
+        "title": "構想派",
+        "summary": "未来の可能性や理想像を描き、それを大きな設計図として捉えるタイプです。"
+      },
+      "challenge": {
+        "title": "超挑戦派",
+        "summary": "そのタイプらしい突破力や行動力が特に強く現れる王道強化型です。"
+      }
+    },
+    "contrastDescriptions": {
+      "reality": {
+        "title": "理念寄り",
+        "summary": "目の前の条件よりも、あるべき姿や方針を優先する傾向があります。"
+      },
+      "strategy": {
+        "title": "即断寄り",
+        "summary": "長期計画よりも、その場の判断や勢いを重視する傾向があります。"
+      },
+      "inquiry": {
+        "title": "実践寄り",
+        "summary": "理論を深掘りするよりも、使えるかどうかを早く確かめたい傾向があります。"
+      },
+      "empathy": {
+        "title": "成果寄り",
+        "summary": "気持ちや関係性よりも、結果や前進を重視する傾向があります。"
+      },
+      "imagination": {
+        "title": "現場寄り",
+        "summary": "抽象的な未来像よりも、今の現場で動くことへ意識が向きやすい傾向があります。"
+      },
+      "challenge": {
+        "title": "堅実寄り",
+        "summary": "リスクを抑え、確実性の高い選択を好む傾向があります。"
+      }
+    }
+  },
+  "ENTP": {
+    "alias": "討論者",
+    "resultHeading": "ENTP（討論者）",
+    "profileLabel": "Debater profile",
+    "expectedScores": {
+      "reality": 42,
+      "strategy": 62,
+      "inquiry": 78,
+      "empathy": 48,
+      "imagination": 82,
+      "challenge": 70
+    },
+    "subtypeLabels": {
+      "reality": "実証派",
+      "strategy": "戦略派",
+      "inquiry": "超探求派",
+      "empathy": "共感派",
+      "imagination": "超発想派",
+      "challenge": "挑戦派"
+    },
+    "contrastLabels": {
+      "reality": "可能性寄り",
+      "strategy": "即興寄り",
+      "inquiry": "直感寄り",
+      "empathy": "自分軸寄り",
+      "imagination": "実行寄り",
+      "challenge": "慎重寄り"
+    },
+    "attributeDescriptions": {
+      "reality": {
+        "title": "実証派",
+        "summary": "抽象的な仮説を、具体例や検証可能な形で確かめようとするタイプです。"
+      },
+      "strategy": {
+        "title": "戦略派",
+        "summary": "目的から逆算し、状況を読んで道筋を組み立てるタイプです。"
+      },
+      "inquiry": {
+        "title": "超探求派",
+        "summary": "そのタイプらしい知的好奇心や本質追求が特に強く現れる王道強化型です。"
+      },
+      "empathy": {
+        "title": "共感派",
+        "summary": "論理や効率だけでなく、人の感情や関係性にも自然と意識が向くタイプです。"
+      },
+      "imagination": {
+        "title": "超発想派",
+        "summary": "ひらめきや可能性の展開力が特に強く現れる王道強化型です。"
+      },
+      "challenge": {
+        "title": "挑戦派",
+        "summary": "未知の領域や変化を恐れず、自分の可能性を試しに行くタイプです。"
+      }
+    },
+    "contrastDescriptions": {
+      "reality": {
+        "title": "可能性寄り",
+        "summary": "今ある現実よりも、これから広がる選択肢に意識が向きやすい傾向があります。"
+      },
+      "strategy": {
+        "title": "即興寄り",
+        "summary": "決めた手順よりも、その場の流れやひらめきで動く傾向があります。"
+      },
+      "inquiry": {
+        "title": "直感寄り",
+        "summary": "細かな分析よりも、ひらめきや違和感を頼りに判断する傾向があります。"
+      },
+      "empathy": {
+        "title": "自分軸寄り",
+        "summary": "人に合わせすぎず、自分が納得できる選択を大切にする傾向があります。"
+      },
+      "imagination": {
+        "title": "実行寄り",
+        "summary": "想像や構想で止まらず、形にすることや現実へ接続することに意識が向きやすい傾向があります。"
+      },
+      "challenge": {
+        "title": "慎重寄り",
+        "summary": "無理に突破しようとせず、タイミングや安全な進め方を選ぶ傾向があります。"
+      }
+    }
+  },
+  "INFJ": {
+    "alias": "提唱者",
+    "resultHeading": "INFJ（提唱者）",
+    "profileLabel": "Advocate profile",
+    "expectedScores": {
+      "reality": 46,
+      "strategy": 64,
+      "inquiry": 68,
+      "empathy": 78,
+      "imagination": 76,
+      "challenge": 44
+    },
+    "subtypeLabels": {
+      "reality": "現実派",
+      "strategy": "戦略派",
+      "inquiry": "探求派",
+      "empathy": "超共感派",
+      "imagination": "超洞察派",
+      "challenge": "挑戦派"
+    },
+    "contrastLabels": {
+      "reality": "理想寄り",
+      "strategy": "即興寄り",
+      "inquiry": "直感寄り",
+      "empathy": "自立寄り",
+      "imagination": "実行寄り",
+      "challenge": "慎重寄り"
+    },
+    "attributeDescriptions": {
+      "reality": {
+        "title": "現実派",
+        "summary": "理想や構想だけで終わらせず、現実の条件や実現可能性まで見据えるタイプです。"
+      },
+      "strategy": {
+        "title": "戦略派",
+        "summary": "目的から逆算し、状況を読んで道筋を組み立てるタイプです。"
+      },
+      "inquiry": {
+        "title": "探求派",
+        "summary": "結果だけでなく、物事の意味・本質・仕組みを理解したいタイプです。"
+      },
+      "empathy": {
+        "title": "超共感派",
+        "summary": "そのタイプらしい人への感度や共感性が特に強く現れる王道強化型です。"
+      },
+      "imagination": {
+        "title": "超洞察派",
+        "summary": "見えている出来事の奥にある意味や流れを鋭く感じ取る王道強化型です。"
+      },
+      "challenge": {
+        "title": "挑戦派",
+        "summary": "未知の領域や変化を恐れず、自分の可能性を試しに行くタイプです。"
+      }
+    },
+    "contrastDescriptions": {
+      "reality": {
+        "title": "理想寄り",
+        "summary": "現実的な制約よりも、可能性やビジョンを優先する傾向があります。"
+      },
+      "strategy": {
+        "title": "即興寄り",
+        "summary": "決めた手順よりも、その場の流れやひらめきで動く傾向があります。"
+      },
+      "inquiry": {
+        "title": "直感寄り",
+        "summary": "細かな分析よりも、ひらめきや違和感を頼りに判断する傾向があります。"
+      },
+      "empathy": {
+        "title": "自立寄り",
+        "summary": "自立寄りの傾向があります。"
+      },
+      "imagination": {
+        "title": "実行寄り",
+        "summary": "想像や構想で止まらず、形にすることや現実へ接続することに意識が向きやすい傾向があります。"
+      },
+      "challenge": {
+        "title": "慎重寄り",
+        "summary": "無理に突破しようとせず、タイミングや安全な進め方を選ぶ傾向があります。"
+      }
+    }
+  },
+  "INFP": {
+    "alias": "仲介者",
+    "resultHeading": "INFP（仲介者）",
+    "profileLabel": "Mediator profile",
+    "expectedScores": {
+      "reality": 48,
+      "strategy": 44,
+      "inquiry": 58,
+      "empathy": 72,
+      "imagination": 76,
+      "challenge": 42
+    },
+    "subtypeLabels": {
+      "reality": "現実派",
+      "strategy": "戦略派",
+      "inquiry": "探求派",
+      "empathy": "超共感派",
+      "imagination": "超創造派",
+      "challenge": "挑戦派"
+    },
+    "contrastLabels": {
+      "reality": "夢想寄り",
+      "strategy": "即興寄り",
+      "inquiry": "直感寄り",
+      "empathy": "自立寄り",
+      "imagination": "実行寄り",
+      "challenge": "慎重寄り"
+    },
+    "attributeDescriptions": {
+      "reality": {
+        "title": "現実派",
+        "summary": "理想や構想だけで終わらせず、現実の条件や実現可能性まで見据えるタイプです。"
+      },
+      "strategy": {
+        "title": "戦略派",
+        "summary": "目的から逆算し、状況を読んで道筋を組み立てるタイプです。"
+      },
+      "inquiry": {
+        "title": "探求派",
+        "summary": "結果だけでなく、物事の意味・本質・仕組みを理解したいタイプです。"
+      },
+      "empathy": {
+        "title": "超共感派",
+        "summary": "そのタイプらしい人への感度や共感性が特に強く現れる王道強化型です。"
+      },
+      "imagination": {
+        "title": "超創造派",
+        "summary": "そのタイプらしい創造性や内面世界の豊かさが特に強く現れる王道強化型です。"
+      },
+      "challenge": {
+        "title": "挑戦派",
+        "summary": "未知の領域や変化を恐れず、自分の可能性を試しに行くタイプです。"
+      }
+    },
+    "contrastDescriptions": {
+      "reality": {
+        "title": "夢想寄り",
+        "summary": "現実に急いで落とし込むよりも、内側のイメージや物語を広げる傾向があります。"
+      },
+      "strategy": {
+        "title": "即興寄り",
+        "summary": "決めた手順よりも、その場の流れやひらめきで動く傾向があります。"
+      },
+      "inquiry": {
+        "title": "直感寄り",
+        "summary": "細かな分析よりも、ひらめきや違和感を頼りに判断する傾向があります。"
+      },
+      "empathy": {
+        "title": "自立寄り",
+        "summary": "自立寄りの傾向があります。"
+      },
+      "imagination": {
+        "title": "実行寄り",
+        "summary": "想像や構想で止まらず、形にすることや現実へ接続することに意識が向きやすい傾向があります。"
+      },
+      "challenge": {
+        "title": "慎重寄り",
+        "summary": "無理に突破しようとせず、タイミングや安全な進め方を選ぶ傾向があります。"
+      }
+    }
+  },
+  "ENFJ": {
+    "alias": "主人公",
+    "resultHeading": "ENFJ（主人公）",
+    "profileLabel": "Protagonist profile",
+    "expectedScores": {
+      "reality": 58,
+      "strategy": 62,
+      "inquiry": 52,
+      "empathy": 82,
+      "imagination": 66,
+      "challenge": 68
+    },
+    "subtypeLabels": {
+      "reality": "実行派",
+      "strategy": "戦略派",
+      "inquiry": "探求派",
+      "empathy": "超共感派",
+      "imagination": "構想派",
+      "challenge": "超牽引派"
+    },
+    "contrastLabels": {
+      "reality": "理想寄り",
+      "strategy": "即興寄り",
+      "inquiry": "直感寄り",
+      "empathy": "自分軸寄り",
+      "imagination": "実務寄り",
+      "challenge": "調和寄り"
+    },
+    "attributeDescriptions": {
+      "reality": {
+        "title": "実行派",
+        "summary": "考えや方針を、実際の行動や結果へ移す力が前に出るタイプです。"
+      },
+      "strategy": {
+        "title": "戦略派",
+        "summary": "目的から逆算し、状況を読んで道筋を組み立てるタイプです。"
+      },
+      "inquiry": {
+        "title": "探求派",
+        "summary": "結果だけでなく、物事の意味・本質・仕組みを理解したいタイプです。"
+      },
+      "empathy": {
+        "title": "超共感派",
+        "summary": "そのタイプらしい人への感度や共感性が特に強く現れる王道強化型です。"
+      },
+      "imagination": {
+        "title": "構想派",
+        "summary": "未来の可能性や理想像を描き、それを大きな設計図として捉えるタイプです。"
+      },
+      "challenge": {
+        "title": "超牽引派",
+        "summary": "人や場を前へ導く力が特に強く現れる王道強化型です。"
+      }
+    },
+    "contrastDescriptions": {
+      "reality": {
+        "title": "理想寄り",
+        "summary": "現実的な制約よりも、可能性やビジョンを優先する傾向があります。"
+      },
+      "strategy": {
+        "title": "即興寄り",
+        "summary": "決めた手順よりも、その場の流れやひらめきで動く傾向があります。"
+      },
+      "inquiry": {
+        "title": "直感寄り",
+        "summary": "細かな分析よりも、ひらめきや違和感を頼りに判断する傾向があります。"
+      },
+      "empathy": {
+        "title": "自分軸寄り",
+        "summary": "人に合わせすぎず、自分が納得できる選択を大切にする傾向があります。"
+      },
+      "imagination": {
+        "title": "実務寄り",
+        "summary": "未来の構想よりも、目の前の課題解決や運用を優先する傾向があります。"
+      },
+      "challenge": {
+        "title": "調和寄り",
+        "summary": "突破力よりも、人や場のバランスを崩さないことを優先する傾向があります。"
+      }
+    }
+  },
+  "ENFP": {
+    "alias": "運動家",
+    "resultHeading": "ENFP（運動家）",
+    "profileLabel": "Campaigner profile",
+    "expectedScores": {
+      "reality": 42,
+      "strategy": 48,
+      "inquiry": 62,
+      "empathy": 70,
+      "imagination": 84,
+      "challenge": 72
+    },
+    "subtypeLabels": {
+      "reality": "現実派",
+      "strategy": "戦略派",
+      "inquiry": "探求派",
+      "empathy": "共感派",
+      "imagination": "超創造派",
+      "challenge": "超挑戦派"
+    },
+    "contrastLabels": {
+      "reality": "夢想寄り",
+      "strategy": "即興寄り",
+      "inquiry": "直感寄り",
+      "empathy": "自立寄り",
+      "imagination": "実行寄り",
+      "challenge": "穏健寄り"
+    },
+    "attributeDescriptions": {
+      "reality": {
+        "title": "現実派",
+        "summary": "理想や構想だけで終わらせず、現実の条件や実現可能性まで見据えるタイプです。"
+      },
+      "strategy": {
+        "title": "戦略派",
+        "summary": "目的から逆算し、状況を読んで道筋を組み立てるタイプです。"
+      },
+      "inquiry": {
+        "title": "探求派",
+        "summary": "結果だけでなく、物事の意味・本質・仕組みを理解したいタイプです。"
+      },
+      "empathy": {
+        "title": "共感派",
+        "summary": "論理や効率だけでなく、人の感情や関係性にも自然と意識が向くタイプです。"
+      },
+      "imagination": {
+        "title": "超創造派",
+        "summary": "そのタイプらしい創造性や内面世界の豊かさが特に強く現れる王道強化型です。"
+      },
+      "challenge": {
+        "title": "超挑戦派",
+        "summary": "そのタイプらしい突破力や行動力が特に強く現れる王道強化型です。"
+      }
+    },
+    "contrastDescriptions": {
+      "reality": {
+        "title": "夢想寄り",
+        "summary": "現実に急いで落とし込むよりも、内側のイメージや物語を広げる傾向があります。"
+      },
+      "strategy": {
+        "title": "即興寄り",
+        "summary": "決めた手順よりも、その場の流れやひらめきで動く傾向があります。"
+      },
+      "inquiry": {
+        "title": "直感寄り",
+        "summary": "細かな分析よりも、ひらめきや違和感を頼りに判断する傾向があります。"
+      },
+      "empathy": {
+        "title": "自立寄り",
+        "summary": "自立寄りの傾向があります。"
+      },
+      "imagination": {
+        "title": "実行寄り",
+        "summary": "想像や構想で止まらず、形にすることや現実へ接続することに意識が向きやすい傾向があります。"
+      },
+      "challenge": {
+        "title": "穏健寄り",
+        "summary": "強く押し切るよりも、自分や周囲に無理のない進み方を選ぶ傾向があります。"
+      }
+    }
+  },
+  "ISTJ": {
+    "alias": "管理者",
+    "resultHeading": "ISTJ（管理者）",
+    "profileLabel": "Logistician profile",
+    "expectedScores": {
+      "reality": 82,
+      "strategy": 70,
+      "inquiry": 48,
+      "empathy": 54,
+      "imagination": 34,
+      "challenge": 42
+    },
+    "subtypeLabels": {
+      "reality": "超現実派",
+      "strategy": "超秩序派",
+      "inquiry": "探求派",
+      "empathy": "共感派",
+      "imagination": "想像派",
+      "challenge": "挑戦派"
+    },
+    "contrastLabels": {
+      "reality": "理念寄り",
+      "strategy": "即応寄り",
+      "inquiry": "実務寄り",
+      "empathy": "職責寄り",
+      "imagination": "事実寄り",
+      "challenge": "堅実寄り"
+    },
+    "attributeDescriptions": {
+      "reality": {
+        "title": "超現実派",
+        "summary": "そのタイプらしい堅実さや現実感覚が特に強く現れる王道強化型です。"
+      },
+      "strategy": {
+        "title": "超秩序派",
+        "summary": "手順・責任・継続性を重視し、安定した仕組みを守り抜くタイプです。"
+      },
+      "inquiry": {
+        "title": "探求派",
+        "summary": "結果だけでなく、物事の意味・本質・仕組みを理解したいタイプです。"
+      },
+      "empathy": {
+        "title": "共感派",
+        "summary": "論理や効率だけでなく、人の感情や関係性にも自然と意識が向くタイプです。"
+      },
+      "imagination": {
+        "title": "想像派",
+        "summary": "目の前の現実に、別の可能性や物語を重ねて見るタイプです。"
+      },
+      "challenge": {
+        "title": "挑戦派",
+        "summary": "未知の領域や変化を恐れず、自分の可能性を試しに行くタイプです。"
+      }
+    },
+    "contrastDescriptions": {
+      "reality": {
+        "title": "理念寄り",
+        "summary": "目の前の条件よりも、あるべき姿や方針を優先する傾向があります。"
+      },
+      "strategy": {
+        "title": "即応寄り",
+        "summary": "先の計画よりも、今起きていることへの対応を優先する傾向があります。"
+      },
+      "inquiry": {
+        "title": "実務寄り",
+        "summary": "未来の構想よりも、目の前の課題解決や運用を優先する傾向があります。"
+      },
+      "empathy": {
+        "title": "職責寄り",
+        "summary": "感情よりも、役割や責任を果たすことを優先する傾向があります。"
+      },
+      "imagination": {
+        "title": "事実寄り",
+        "summary": "想像や解釈よりも、確認できる事実を重視する傾向があります。"
+      },
+      "challenge": {
+        "title": "堅実寄り",
+        "summary": "リスクを抑え、確実性の高い選択を好む傾向があります。"
+      }
+    }
+  },
+  "ISFJ": {
+    "alias": "擁護者",
+    "resultHeading": "ISFJ（擁護者）",
+    "profileLabel": "Defender profile",
+    "expectedScores": {
+      "reality": 74,
+      "strategy": 60,
+      "inquiry": 42,
+      "empathy": 78,
+      "imagination": 46,
+      "challenge": 36
+    },
+    "subtypeLabels": {
+      "reality": "現実派",
+      "strategy": "秩序派",
+      "inquiry": "探求派",
+      "empathy": "超共感派",
+      "imagination": "想像派",
+      "challenge": "挑戦派"
+    },
+    "contrastLabels": {
+      "reality": "情緒寄り",
+      "strategy": "即応寄り",
+      "inquiry": "実務寄り",
+      "empathy": "自分軸寄り",
+      "imagination": "手堅さ寄り",
+      "challenge": "慎重寄り"
+    },
+    "attributeDescriptions": {
+      "reality": {
+        "title": "現実派",
+        "summary": "理想や構想だけで終わらせず、現実の条件や実現可能性まで見据えるタイプです。"
+      },
+      "strategy": {
+        "title": "秩序派",
+        "summary": "場や生活を整え、無理なく続く形にしていくタイプです。"
+      },
+      "inquiry": {
+        "title": "探求派",
+        "summary": "結果だけでなく、物事の意味・本質・仕組みを理解したいタイプです。"
+      },
+      "empathy": {
+        "title": "超共感派",
+        "summary": "そのタイプらしい人への感度や共感性が特に強く現れる王道強化型です。"
+      },
+      "imagination": {
+        "title": "想像派",
+        "summary": "目の前の現実に、別の可能性や物語を重ねて見るタイプです。"
+      },
+      "challenge": {
+        "title": "挑戦派",
+        "summary": "未知の領域や変化を恐れず、自分の可能性を試しに行くタイプです。"
+      }
+    },
+    "contrastDescriptions": {
+      "reality": {
+        "title": "情緒寄り",
+        "summary": "条件や効率よりも、気持ちや安心感を優先する傾向があります。"
+      },
+      "strategy": {
+        "title": "即応寄り",
+        "summary": "先の計画よりも、今起きていることへの対応を優先する傾向があります。"
+      },
+      "inquiry": {
+        "title": "実務寄り",
+        "summary": "未来の構想よりも、目の前の課題解決や運用を優先する傾向があります。"
+      },
+      "empathy": {
+        "title": "自分軸寄り",
+        "summary": "人に合わせすぎず、自分が納得できる選択を大切にする傾向があります。"
+      },
+      "imagination": {
+        "title": "手堅さ寄り",
+        "summary": "イメージを広げるより、確実に扱える範囲を大切にする傾向があります。"
+      },
+      "challenge": {
+        "title": "慎重寄り",
+        "summary": "無理に突破しようとせず、タイミングや安全な進め方を選ぶ傾向があります。"
+      }
+    }
+  },
+  "ESTJ": {
+    "alias": "幹部",
+    "resultHeading": "ESTJ（幹部）",
+    "profileLabel": "Executive profile",
+    "expectedScores": {
+      "reality": 84,
+      "strategy": 74,
+      "inquiry": 44,
+      "empathy": 48,
+      "imagination": 36,
+      "challenge": 70
+    },
+    "subtypeLabels": {
+      "reality": "超現実派",
+      "strategy": "超管理派",
+      "inquiry": "探求派",
+      "empathy": "共感派",
+      "imagination": "構想派",
+      "challenge": "実行派"
+    },
+    "contrastLabels": {
+      "reality": "理念寄り",
+      "strategy": "即断寄り",
+      "inquiry": "実務寄り",
+      "empathy": "成果寄り",
+      "imagination": "現場寄り",
+      "challenge": "慎重寄り"
+    },
+    "attributeDescriptions": {
+      "reality": {
+        "title": "超現実派",
+        "summary": "そのタイプらしい堅実さや現実感覚が特に強く現れる王道強化型です。"
+      },
+      "strategy": {
+        "title": "超管理派",
+        "summary": "状況を整理し、人や物事を前へ進める管理力が強く現れる王道強化型です。"
+      },
+      "inquiry": {
+        "title": "探求派",
+        "summary": "結果だけでなく、物事の意味・本質・仕組みを理解したいタイプです。"
+      },
+      "empathy": {
+        "title": "共感派",
+        "summary": "論理や効率だけでなく、人の感情や関係性にも自然と意識が向くタイプです。"
+      },
+      "imagination": {
+        "title": "構想派",
+        "summary": "未来の可能性や理想像を描き、それを大きな設計図として捉えるタイプです。"
+      },
+      "challenge": {
+        "title": "実行派",
+        "summary": "考えや方針を、実際の行動や結果へ移す力が前に出るタイプです。"
+      }
+    },
+    "contrastDescriptions": {
+      "reality": {
+        "title": "理念寄り",
+        "summary": "目の前の条件よりも、あるべき姿や方針を優先する傾向があります。"
+      },
+      "strategy": {
+        "title": "即断寄り",
+        "summary": "長期計画よりも、その場の判断や勢いを重視する傾向があります。"
+      },
+      "inquiry": {
+        "title": "実務寄り",
+        "summary": "未来の構想よりも、目の前の課題解決や運用を優先する傾向があります。"
+      },
+      "empathy": {
+        "title": "成果寄り",
+        "summary": "気持ちや関係性よりも、結果や前進を重視する傾向があります。"
+      },
+      "imagination": {
+        "title": "現場寄り",
+        "summary": "抽象的な未来像よりも、今の現場で動くことへ意識が向きやすい傾向があります。"
+      },
+      "challenge": {
+        "title": "慎重寄り",
+        "summary": "無理に突破しようとせず、タイミングや安全な進め方を選ぶ傾向があります。"
+      }
+    }
+  },
+  "ESFJ": {
+    "alias": "領事",
+    "resultHeading": "ESFJ（領事）",
+    "profileLabel": "Consul profile",
+    "expectedScores": {
+      "reality": 72,
+      "strategy": 58,
+      "inquiry": 38,
+      "empathy": 82,
+      "imagination": 48,
+      "challenge": 62
+    },
+    "subtypeLabels": {
+      "reality": "現実派",
+      "strategy": "調整派",
+      "inquiry": "探求派",
+      "empathy": "超共感派",
+      "imagination": "想像派",
+      "challenge": "牽引派"
+    },
+    "contrastLabels": {
+      "reality": "情緒寄り",
+      "strategy": "即応寄り",
+      "inquiry": "実務寄り",
+      "empathy": "自分軸寄り",
+      "imagination": "手堅さ寄り",
+      "challenge": "調和寄り"
+    },
+    "attributeDescriptions": {
+      "reality": {
+        "title": "現実派",
+        "summary": "理想や構想だけで終わらせず、現実の条件や実現可能性まで見据えるタイプです。"
+      },
+      "strategy": {
+        "title": "調整派",
+        "summary": "人や場の流れを見ながら、現実的な落としどころを整えるタイプです。"
+      },
+      "inquiry": {
+        "title": "探求派",
+        "summary": "結果だけでなく、物事の意味・本質・仕組みを理解したいタイプです。"
+      },
+      "empathy": {
+        "title": "超共感派",
+        "summary": "そのタイプらしい人への感度や共感性が特に強く現れる王道強化型です。"
+      },
+      "imagination": {
+        "title": "想像派",
+        "summary": "目の前の現実に、別の可能性や物語を重ねて見るタイプです。"
+      },
+      "challenge": {
+        "title": "牽引派",
+        "summary": "周囲の気持ちや状況を見ながら、人を前へ動かしていくタイプです。"
+      }
+    },
+    "contrastDescriptions": {
+      "reality": {
+        "title": "情緒寄り",
+        "summary": "条件や効率よりも、気持ちや安心感を優先する傾向があります。"
+      },
+      "strategy": {
+        "title": "即応寄り",
+        "summary": "先の計画よりも、今起きていることへの対応を優先する傾向があります。"
+      },
+      "inquiry": {
+        "title": "実務寄り",
+        "summary": "未来の構想よりも、目の前の課題解決や運用を優先する傾向があります。"
+      },
+      "empathy": {
+        "title": "自分軸寄り",
+        "summary": "人に合わせすぎず、自分が納得できる選択を大切にする傾向があります。"
+      },
+      "imagination": {
+        "title": "手堅さ寄り",
+        "summary": "イメージを広げるより、確実に扱える範囲を大切にする傾向があります。"
+      },
+      "challenge": {
+        "title": "調和寄り",
+        "summary": "突破力よりも、人や場のバランスを崩さないことを優先する傾向があります。"
+      }
+    }
+  },
+  "ISTP": {
+    "alias": "巨匠",
+    "resultHeading": "ISTP（巨匠）",
+    "profileLabel": "Virtuoso profile",
+    "expectedScores": {
+      "reality": 76,
+      "strategy": 48,
+      "inquiry": 62,
+      "empathy": 34,
+      "imagination": 48,
+      "challenge": 68
+    },
+    "subtypeLabels": {
+      "reality": "実感派",
+      "strategy": "構造派",
+      "inquiry": "探求派",
+      "empathy": "共感派",
+      "imagination": "発想派",
+      "challenge": "超実践派"
+    },
+    "contrastLabels": {
+      "reality": "仮説寄り",
+      "strategy": "即興寄り",
+      "inquiry": "手応え寄り",
+      "empathy": "独立寄り",
+      "imagination": "現物寄り",
+      "challenge": "慎重寄り"
+    },
+    "attributeDescriptions": {
+      "reality": {
+        "title": "実感派",
+        "summary": "頭の中の理論より、体感・手応え・目の前の状況から判断するタイプです。"
+      },
+      "strategy": {
+        "title": "構造派",
+        "summary": "物事の背後にある仕組みや関係性を組み立てて理解するタイプです。"
+      },
+      "inquiry": {
+        "title": "探求派",
+        "summary": "結果だけでなく、物事の意味・本質・仕組みを理解したいタイプです。"
+      },
+      "empathy": {
+        "title": "共感派",
+        "summary": "論理や効率だけでなく、人の感情や関係性にも自然と意識が向くタイプです。"
+      },
+      "imagination": {
+        "title": "発想派",
+        "summary": "既存の形に縛られず、別の見方や使い方を思いつきやすいタイプです。"
+      },
+      "challenge": {
+        "title": "超実践派",
+        "summary": "考えるだけで終わらせず、手を動かして確かめる力が特に強い王道強化型です。"
+      }
+    },
+    "contrastDescriptions": {
+      "reality": {
+        "title": "仮説寄り",
+        "summary": "確定した事実よりも、試せそうな可能性を先に見る傾向があります。"
+      },
+      "strategy": {
+        "title": "即興寄り",
+        "summary": "決めた手順よりも、その場の流れやひらめきで動く傾向があります。"
+      },
+      "inquiry": {
+        "title": "手応え寄り",
+        "summary": "言葉で理解するより、実際に触れて確かめることを重視する傾向があります。"
+      },
+      "empathy": {
+        "title": "独立寄り",
+        "summary": "周囲の評価や感情に流されず、自分の基準で判断する傾向があります。"
+      },
+      "imagination": {
+        "title": "現物寄り",
+        "summary": "イメージよりも、実際にあるもの・触れるものから考える傾向があります。"
+      },
+      "challenge": {
+        "title": "慎重寄り",
+        "summary": "無理に突破しようとせず、タイミングや安全な進め方を選ぶ傾向があります。"
+      }
+    }
+  },
+  "ISFP": {
+    "alias": "冒険家",
+    "resultHeading": "ISFP（冒険家）",
+    "profileLabel": "Adventurer profile",
+    "expectedScores": {
+      "reality": 58,
+      "strategy": 38,
+      "inquiry": 46,
+      "empathy": 66,
+      "imagination": 70,
+      "challenge": 54
+    },
+    "subtypeLabels": {
+      "reality": "実感派",
+      "strategy": "構想派",
+      "inquiry": "探求派",
+      "empathy": "共鳴派",
+      "imagination": "表現派",
+      "challenge": "冒険派"
+    },
+    "contrastLabels": {
+      "reality": "感性寄り",
+      "strategy": "即興寄り",
+      "inquiry": "直感寄り",
+      "empathy": "自分軸寄り",
+      "imagination": "実行寄り",
+      "challenge": "穏健寄り"
+    },
+    "attributeDescriptions": {
+      "reality": {
+        "title": "実感派",
+        "summary": "頭の中の理論より、体感・手応え・目の前の状況から判断するタイプです。"
+      },
+      "strategy": {
+        "title": "構想派",
+        "summary": "未来の可能性や理想像を描き、それを大きな設計図として捉えるタイプです。"
+      },
+      "inquiry": {
+        "title": "探求派",
+        "summary": "結果だけでなく、物事の意味・本質・仕組みを理解したいタイプです。"
+      },
+      "empathy": {
+        "title": "共鳴派",
+        "summary": "相手や場の空気に繊細に反応し、自然な距離感を選べるタイプです。"
+      },
+      "imagination": {
+        "title": "表現派",
+        "summary": "感覚や感情を、言葉・行動・作品として外へ出す力が前に出るタイプです。"
+      },
+      "challenge": {
+        "title": "冒険派",
+        "summary": "自分の感覚を信じて、新しい体験へ自然に踏み出すタイプです。"
+      }
+    },
+    "contrastDescriptions": {
+      "reality": {
+        "title": "感性寄り",
+        "summary": "感性寄りの傾向があります。"
+      },
+      "strategy": {
+        "title": "即興寄り",
+        "summary": "決めた手順よりも、その場の流れやひらめきで動く傾向があります。"
+      },
+      "inquiry": {
+        "title": "直感寄り",
+        "summary": "細かな分析よりも、ひらめきや違和感を頼りに判断する傾向があります。"
+      },
+      "empathy": {
+        "title": "自分軸寄り",
+        "summary": "人に合わせすぎず、自分が納得できる選択を大切にする傾向があります。"
+      },
+      "imagination": {
+        "title": "実行寄り",
+        "summary": "想像や構想で止まらず、形にすることや現実へ接続することに意識が向きやすい傾向があります。"
+      },
+      "challenge": {
+        "title": "穏健寄り",
+        "summary": "強く押し切るよりも、自分や周囲に無理のない進み方を選ぶ傾向があります。"
+      }
+    }
+  },
+  "ESTP": {
+    "alias": "起業家",
+    "resultHeading": "ESTP（起業家）",
+    "profileLabel": "Entrepreneur profile",
+    "expectedScores": {
+      "reality": 78,
+      "strategy": 52,
+      "inquiry": 48,
+      "empathy": 44,
+      "imagination": 50,
+      "challenge": 84
+    },
+    "subtypeLabels": {
+      "reality": "実感派",
+      "strategy": "戦略派",
+      "inquiry": "探求派",
+      "empathy": "共感派",
+      "imagination": "発想派",
+      "challenge": "超挑戦派"
+    },
+    "contrastLabels": {
+      "reality": "可能性寄り",
+      "strategy": "即興寄り",
+      "inquiry": "直感寄り",
+      "empathy": "自分軸寄り",
+      "imagination": "実行寄り",
+      "challenge": "堅実寄り"
+    },
+    "attributeDescriptions": {
+      "reality": {
+        "title": "実感派",
+        "summary": "頭の中の理論より、体感・手応え・目の前の状況から判断するタイプです。"
+      },
+      "strategy": {
+        "title": "戦略派",
+        "summary": "目的から逆算し、状況を読んで道筋を組み立てるタイプです。"
+      },
+      "inquiry": {
+        "title": "探求派",
+        "summary": "結果だけでなく、物事の意味・本質・仕組みを理解したいタイプです。"
+      },
+      "empathy": {
+        "title": "共感派",
+        "summary": "論理や効率だけでなく、人の感情や関係性にも自然と意識が向くタイプです。"
+      },
+      "imagination": {
+        "title": "発想派",
+        "summary": "既存の形に縛られず、別の見方や使い方を思いつきやすいタイプです。"
+      },
+      "challenge": {
+        "title": "超挑戦派",
+        "summary": "そのタイプらしい突破力や行動力が特に強く現れる王道強化型です。"
+      }
+    },
+    "contrastDescriptions": {
+      "reality": {
+        "title": "可能性寄り",
+        "summary": "今ある現実よりも、これから広がる選択肢に意識が向きやすい傾向があります。"
+      },
+      "strategy": {
+        "title": "即興寄り",
+        "summary": "決めた手順よりも、その場の流れやひらめきで動く傾向があります。"
+      },
+      "inquiry": {
+        "title": "直感寄り",
+        "summary": "細かな分析よりも、ひらめきや違和感を頼りに判断する傾向があります。"
+      },
+      "empathy": {
+        "title": "自分軸寄り",
+        "summary": "人に合わせすぎず、自分が納得できる選択を大切にする傾向があります。"
+      },
+      "imagination": {
+        "title": "実行寄り",
+        "summary": "想像や構想で止まらず、形にすることや現実へ接続することに意識が向きやすい傾向があります。"
+      },
+      "challenge": {
+        "title": "堅実寄り",
+        "summary": "リスクを抑え、確実性の高い選択を好む傾向があります。"
+      }
+    }
+  },
+  "ESFP": {
+    "alias": "エンターテイナー",
+    "resultHeading": "ESFP（エンターテイナー）",
+    "profileLabel": "Entertainer profile",
+    "expectedScores": {
+      "reality": 70,
+      "strategy": 38,
+      "inquiry": 36,
+      "empathy": 66,
+      "imagination": 68,
+      "challenge": 82
+    },
+    "subtypeLabels": {
+      "reality": "実感派",
+      "strategy": "調整派",
+      "inquiry": "探求派",
+      "empathy": "共感派",
+      "imagination": "表現派",
+      "challenge": "超体験派"
+    },
+    "contrastLabels": {
+      "reality": "夢想寄り",
+      "strategy": "即興寄り",
+      "inquiry": "直感寄り",
+      "empathy": "自分軸寄り",
+      "imagination": "実行寄り",
+      "challenge": "穏健寄り"
+    },
+    "attributeDescriptions": {
+      "reality": {
+        "title": "実感派",
+        "summary": "頭の中の理論より、体感・手応え・目の前の状況から判断するタイプです。"
+      },
+      "strategy": {
+        "title": "調整派",
+        "summary": "人や場の流れを見ながら、現実的な落としどころを整えるタイプです。"
+      },
+      "inquiry": {
+        "title": "探求派",
+        "summary": "結果だけでなく、物事の意味・本質・仕組みを理解したいタイプです。"
+      },
+      "empathy": {
+        "title": "共感派",
+        "summary": "論理や効率だけでなく、人の感情や関係性にも自然と意識が向くタイプです。"
+      },
+      "imagination": {
+        "title": "表現派",
+        "summary": "感覚や感情を、言葉・行動・作品として外へ出す力が前に出るタイプです。"
+      },
+      "challenge": {
+        "title": "超体験派",
+        "summary": "その場の熱量や体験から力を得る傾向が特に強い王道強化型です。"
+      }
+    },
+    "contrastDescriptions": {
+      "reality": {
+        "title": "夢想寄り",
+        "summary": "現実に急いで落とし込むよりも、内側のイメージや物語を広げる傾向があります。"
+      },
+      "strategy": {
+        "title": "即興寄り",
+        "summary": "決めた手順よりも、その場の流れやひらめきで動く傾向があります。"
+      },
+      "inquiry": {
+        "title": "直感寄り",
+        "summary": "細かな分析よりも、ひらめきや違和感を頼りに判断する傾向があります。"
+      },
+      "empathy": {
+        "title": "自分軸寄り",
+        "summary": "人に合わせすぎず、自分が納得できる選択を大切にする傾向があります。"
+      },
+      "imagination": {
+        "title": "実行寄り",
+        "summary": "想像や構想で止まらず、形にすることや現実へ接続することに意識が向きやすい傾向があります。"
+      },
+      "challenge": {
+        "title": "穏健寄り",
+        "summary": "強く押し切るよりも、自分や周囲に無理のない進み方を選ぶ傾向があります。"
+      }
+    }
+  }
+}

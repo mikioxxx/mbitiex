@@ -1,0 +1,233 @@
+{
+  "attributes": {
+    "reality": {
+      "label": "現実",
+      "average": 48,
+      "color": "#d9b56d"
+    },
+    "strategy": {
+      "label": "戦略",
+      "average": 44,
+      "color": "#7ea7c8"
+    },
+    "inquiry": {
+      "label": "探求",
+      "average": 58,
+      "color": "#91b6d7"
+    },
+    "empathy": {
+      "label": "共感",
+      "average": 72,
+      "color": "#8db892"
+    },
+    "imagination": {
+      "label": "想像",
+      "average": 76,
+      "color": "#c68ea3"
+    },
+    "challenge": {
+      "label": "挑戦",
+      "average": 42,
+      "color": "#d39a72"
+    }
+  },
+  "mbtiCatalog": [
+    {
+      "group": "分析家",
+      "types": [
+        {
+          "code": "INTJ",
+          "alias": "建築家"
+        },
+        {
+          "code": "INTP",
+          "alias": "論理学者"
+        },
+        {
+          "code": "ENTJ",
+          "alias": "指揮官"
+        },
+        {
+          "code": "ENTP",
+          "alias": "討論者"
+        }
+      ]
+    },
+    {
+      "group": "外交官",
+      "types": [
+        {
+          "code": "INFJ",
+          "alias": "提唱者"
+        },
+        {
+          "code": "INFP",
+          "alias": "仲介者"
+        },
+        {
+          "code": "ENFJ",
+          "alias": "主人公"
+        },
+        {
+          "code": "ENFP",
+          "alias": "運動家"
+        }
+      ]
+    },
+    {
+      "group": "番人",
+      "types": [
+        {
+          "code": "ISTJ",
+          "alias": "管理者"
+        },
+        {
+          "code": "ISFJ",
+          "alias": "擁護者"
+        },
+        {
+          "code": "ESTJ",
+          "alias": "幹部"
+        },
+        {
+          "code": "ESFJ",
+          "alias": "領事"
+        }
+      ]
+    },
+    {
+      "group": "探検家",
+      "types": [
+        {
+          "code": "ISTP",
+          "alias": "巨匠"
+        },
+        {
+          "code": "ISFP",
+          "alias": "冒険家"
+        },
+        {
+          "code": "ESTP",
+          "alias": "起業家"
+        },
+        {
+          "code": "ESFP",
+          "alias": "エンターテイナー"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "text": "理想を形にする時、最初に確かめたいものは？",
+      "low": "可能性や物語",
+      "high": "現実的な条件",
+      "axis": "現実 / 想像",
+      "weights": {
+        "reality": 1.2,
+        "imagination": -0.8,
+        "strategy": 0.4
+      }
+    },
+    {
+      "text": "大切な人が迷っている時、あなたの助け方に近いのは？",
+      "low": "感情を受け止めて一緒にいる",
+      "high": "次の一手を整理して提案する",
+      "axis": "共感 / 戦略",
+      "weights": {
+        "empathy": -1,
+        "strategy": 1.1,
+        "reality": 0.4
+      }
+    },
+    {
+      "text": "知らない分野に惹かれた時、どの動き方をしやすい？",
+      "low": "自由に潜って直感で広げる",
+      "high": "問いを立てて体系的に調べる",
+      "axis": "想像 / 探求",
+      "weights": {
+        "imagination": -0.7,
+        "inquiry": 1.2,
+        "strategy": 0.3
+      }
+    },
+    {
+      "text": "違和感のあるルールに出会った時、あなたの反応は？",
+      "low": "まず背景を理解しようとする",
+      "high": "必要なら穏やかに変えにいく",
+      "axis": "共感 / 挑戦",
+      "weights": {
+        "empathy": -0.5,
+        "challenge": 1.2,
+        "inquiry": 0.4
+      }
+    },
+    {
+      "text": "長期目標を進める時、頼りにするものは？",
+      "low": "その時々の熱量と意味",
+      "high": "小さな計画と検証",
+      "axis": "想像 / 戦略",
+      "weights": {
+        "imagination": -0.5,
+        "strategy": 1.2,
+        "reality": 0.5
+      }
+    },
+    {
+      "text": "創作やアイデア出しで一番気持ちが乗る瞬間は？",
+      "low": "誰かの心に届く像が見えた時",
+      "high": "まだ誰も見ていない構造を見つけた時",
+      "axis": "共感 / 探求",
+      "weights": {
+        "empathy": -0.6,
+        "inquiry": 0.8,
+        "imagination": 0.7
+      }
+    },
+    {
+      "text": "プレッシャーのある場面で、あなたを動かすものは？",
+      "low": "守りたい価値や関係",
+      "high": "越えたい壁や証明したい意思",
+      "axis": "共感 / 挑戦",
+      "weights": {
+        "empathy": -0.7,
+        "challenge": 1.3,
+        "strategy": 0.3
+      }
+    },
+    {
+      "text": "理想と現実がぶつかった時、選びやすい調整は？",
+      "low": "理想の意味を保てる別案を探す",
+      "high": "今できる範囲まで削って実行する",
+      "axis": "探求 / 現実",
+      "weights": {
+        "inquiry": -0.4,
+        "imagination": -0.4,
+        "reality": 1.2,
+        "strategy": 0.4
+      }
+    },
+    {
+      "text": "初対面の場で自然に見ているものは？",
+      "low": "相手の温度感や安心できる距離",
+      "high": "場の流れや次に起きそうな変化",
+      "axis": "共感 / 戦略",
+      "weights": {
+        "empathy": -1,
+        "strategy": 0.7,
+        "inquiry": 0.4
+      }
+    },
+    {
+      "text": "自分らしさを守るために必要だと感じるものは？",
+      "low": "内側の世界を深める時間",
+      "high": "外側へ踏み出す経験",
+      "axis": "想像 / 挑戦",
+      "weights": {
+        "imagination": -1,
+        "challenge": 1,
+        "reality": 0.4
+      }
+    }
+  ]
+}

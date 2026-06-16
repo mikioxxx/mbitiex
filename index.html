@@ -1,0 +1,113 @@
+﻿<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>あなたのMBTIタイプ拡張診断</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app">
+    <section id="startScreen" class="screen active shell hero" aria-labelledby="heroTitle">
+      <div>
+        <p class="kicker" id="heroKicker">INFP subtype diagnostic</p>
+        <h1 id="heroTitle">
+          <span>あなたの</span>
+          <span>MBTIタイプ</span>
+          <span>拡張診断</span>
+        </h1>
+        <p class="hero-copy" id="heroCopy">MBTIタイプの中にある、あなただけの傾向を見つけます。</p>
+        <div class="type-picker" id="typePicker" aria-label="MBTIタイプを選択"></div>
+        <div class="hero-actions">
+          <button class="primary" id="startButton" type="button">診断を始める</button>
+          <button class="secondary" id="sampleButton" type="button">結果例を見る</button>
+        </div>
+      </div>
+      <div class="sigil" aria-hidden="true">
+        <div class="sigil-core">
+          <div>
+            <strong id="sigilType">INFP</strong>
+            <span id="sigilLabel">Mediator profile</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="quizScreen" class="screen shell quiz" aria-labelledby="questionTitle">
+      <div class="topbar">
+        <div class="progress-wrap" aria-label="進行状況">
+          <div class="progress" id="progress"></div>
+        </div>
+        <div class="counter" id="counter">1 / 10</div>
+      </div>
+
+      <div class="question-grid">
+        <div>
+          <p class="kicker" id="questionAxis">現実 / 想像</p>
+          <h2 class="question-title" id="questionTitle"></h2>
+          <p class="question-note">直感的に近いものを選んでください。正解はありません。</p>
+          <p class="mobile-hint">スマホでは選択すると自動で次の質問へ進みます。</p>
+          <div class="scale" id="scale"></div>
+          <div class="nav-row">
+            <button class="secondary" id="backButton" type="button">戻る</button>
+            <button class="primary" id="nextButton" type="button">次へ</button>
+          </div>
+        </div>
+
+        <aside class="attribute-panel" aria-label="現在の属性スコア">
+          <p class="section-title">Live profile</p>
+          <div class="mini-list" id="miniList"></div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="resultScreen" class="screen shell result" aria-labelledby="resultTitle">
+      <div class="result-head">
+        <div>
+          <div class="type-mark">INFP（仲介者）</div>
+          <h2 id="resultTitle"></h2>
+          <p class="subtitle" id="resultSubtitle"></p>
+          <div class="badges">
+            <span class="badge" id="categoryBadge"></span>
+            <span class="badge" id="primaryBadge"></span>
+            <span class="badge" id="secondaryBadge"></span>
+            <span class="badge" id="contrastBadge"></span>
+          </div>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="radarChart" width="780" height="780" aria-label="属性レーダーチャート"></canvas>
+        </div>
+      </div>
+
+      <div class="result-body">
+        <div>
+          <p class="section-title">Interpretation</p>
+          <p class="description" id="description"></p>
+          <div class="share-card-panel">
+            <p class="section-title">Result card</p>
+            <p class="card-note">3:4の診断結果カードを表示します。スマホでは画像を長押しして保存できます。</p>
+            <div class="card-actions">
+              <button class="secondary" id="showCardButton" type="button">診断結果カードを表示</button>
+              <button class="primary" id="shareResultButton" type="button">結果を共有</button>
+            </div>
+            <div class="result-card-frame" id="resultCardFrame" hidden>
+              <img id="resultCardImage" alt="診断結果カード">
+            </div>
+          </div>
+          <div class="footer-actions">
+            <button class="primary" id="restartButton" type="button">もう一度診断する</button>
+            <button class="secondary" id="editButton" type="button">回答を調整する</button>
+          </div>
+        </div>
+        <aside>
+          <p class="section-title" id="diffHeading">INFP予想値との差分</p>
+          <div class="diff-list" id="diffList"></div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
