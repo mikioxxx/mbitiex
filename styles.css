@@ -854,13 +854,14 @@
       }
 
       h1 {
-        font-size: 3.15rem;
+        font-size: 2.86rem;
         line-height: 1.08;
+        margin-bottom: 16px;
       }
 
       .hero-copy {
-        font-size: 1rem;
-        line-height: 1.75;
+        font-size: 0.96rem;
+        line-height: 1.68;
       }
 
       h1::before {
@@ -928,7 +929,7 @@
 
       .type-picker {
         gap: 10px;
-        margin-top: 22px;
+        margin-top: 18px;
       }
 
       .type-group {

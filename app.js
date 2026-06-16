@@ -42,7 +42,6 @@ const state = {
     const miniList = document.getElementById("miniList");
     const backButton = document.getElementById("backButton");
     const nextButton = document.getElementById("nextButton");
-    const heroKicker = document.getElementById("heroKicker");
     const heroCopy = document.getElementById("heroCopy");
     const sigilType = document.getElementById("sigilType");
     const sigilLabel = document.getElementById("sigilLabel");
@@ -72,7 +71,6 @@ const state = {
 
     function updateTypeDisplay() {
       const profile = getCurrentProfile();
-      heroKicker.textContent = `${currentMbti} subtype diagnostic`;
       heroCopy.textContent = `MBTIタイプの中にある、あなただけの傾向を見つけます。\n現在の選択：${currentMbti}（${profile.alias}）`;
       sigilType.textContent = currentMbti;
       sigilLabel.textContent = profile.profileLabel;
