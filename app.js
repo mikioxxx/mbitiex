@@ -7,6 +7,7 @@ let contrastCopy = {};
 let generatedSubtypeMap = {};
 let copyTemplates = {};
 let currentMbti = "INFP";
+const publicSiteUrl = "https://mikioxxx.github.io/mbitiex/";
 
 async function loadAppData() {
   const [config, profiles, overrides, templates] = await Promise.all([
@@ -739,7 +740,7 @@ const state = {
 
       const resultTitle = generated?.title ?? getSubtypeName(primary);
       const resultSubtitle = generated?.summary ?? copy.lead;
-      latestShareText = `${resultTitle}\n${resultSubtitle}`;
+      latestShareText = `${resultTitle}\n${resultSubtitle}\n${publicSiteUrl}`;
       latestResultCardUrl = createResultCard({
         scores,
         title: resultTitle.replace(`（${currentMbti}）`, ""),
@@ -835,6 +836,7 @@ const state = {
           await navigator.share({
             title: "MBTIタイプ拡張診断",
             text: latestShareText,
+            url: publicSiteUrl,
             files: [file]
           });
           return;
@@ -842,7 +844,8 @@ const state = {
         if (navigator.share) {
           await navigator.share({
             title: "MBTIタイプ拡張診断",
-            text: latestShareText
+            text: latestShareText,
+            url: publicSiteUrl
           });
           return;
         }
@@ -853,6 +856,7 @@ const state = {
 
       resultCardFrame.hidden = false;
       showCardButton.textContent = "診断結果カードを閉じる";
+      navigator.clipboard?.writeText(latestShareText).catch(() => {});
       window.open(latestResultCardUrl, "_blank", "noopener");
     });
 
